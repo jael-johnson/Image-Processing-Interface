@@ -5,7 +5,7 @@
 using namespace std;
 
 //***************************************************************************************************//
-//                                DO NOT MODIFY THE SECTION BELOW                                    //
+//                               Below code in this section was provided from professor              //
 //***************************************************************************************************//
 
 // Pixel structure
@@ -211,13 +211,10 @@ bool write_image(string filename, const vector<vector<Pixel>>& image)
 }
 
 //***************************************************************************************************//
-//                                DO NOT MODIFY THE SECTION ABOVE                                    //
+//                                End of proffessor provided code                                    //
 //***************************************************************************************************//
 
 
-//
-// YOUR FUNCTION DEFINITIONS HERE
-//
 vector<vector<Pixel>> process_1(const vector<vector<Pixel>>& image)
 {
     int num_rows = image.size();
